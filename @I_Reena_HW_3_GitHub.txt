@@ -52,7 +52,7 @@ cat >> preferences.json
 cat > sklls.json
 {
  "Skills":
-["1":"Basic theory (What is testing, bug reports, documentation, types, methods, areas of testing, etc.) SDLC, STLC",
+{"1":"Basic theory (What is testing, bug reports, documentation, types, methods, areas of testing, etc.) SDLC, STLC",
 "2":"Client-server architecture",
 "3":"HTTP request methods to the server",
 "4":"HTTP server response codes",
@@ -77,7 +77,7 @@ cat > sklls.json
 "23":"Postgres database (installation, configuration and use)",
 "24":"Non-relational database Redis (installation, configuration, use)",
 "25":"Load Testing in Jmeter",
-"26":"Scrum Development Methodology"]
+"26":"Scrum Development Methodology"}
 }
 git status
 
@@ -127,9 +127,9 @@ git push
 vim new.xml insert
 <Person is-open="true">
 	<fullname>Yaryza Iryna</fullname>
-	<ade>43</ade>
+	<age>43</ade>
 	<number_of_pets>0</number_of_pets>
-	<future_desired_selery>500 €</future_desired_selery>
+	<future_desired_salary>500 €</future_desired_selery>
 </Person>
 Esc
 :wq Enter
@@ -192,9 +192,7 @@ Esc :wq Enter
 
  32. Сделать коммит в одну строку.
 git status
-git add .
-git status
-git commit -m "add information to preferences xml and sklls xml"
+git add .; git commit -m "add information to preferences xml and sklls xml"
 
  33. Отправить сразу 2 файла на внешний репозиторий.
 git push
@@ -298,9 +296,7 @@ Ctrl+C
 
  12. Сделать коммит в одну строку.
 git status
-git add .
-git status
-git commit -m "add information to preferences txt and sklls txt"
+git add .; git commit -m "add information to preferences txt and sklls txt"
 
  13. Отправить сразу 2 файла на внешний репозиторий.
 git push
