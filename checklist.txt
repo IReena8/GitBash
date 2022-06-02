@@ -1,0 +1,16 @@
+Registration
+Email
+Social network
+Field Validation
+Autorisation
+User is active 
+User is inactive
+Password recovery
+Field Validation
+Profile
+Change name
+Change email
+Change password
+Field Validation
+Subscription
+Account deletion
