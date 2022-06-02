@@ -104,6 +104,7 @@ git fetch
 git pull
 
 XML
+
  21. Создать внешний репозиторий c названием XML.
 New repository
 
