@@ -1,7 +1,4 @@
 Registration
-[A
-[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
 Email
 Social network
 Field Validation
