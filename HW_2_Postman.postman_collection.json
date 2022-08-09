@@ -77,7 +77,7 @@
 							"\r",
 							"// 4. Проверить, что name в ответе равно name s request (name вбить руками.)\r",
 							"pm.test(\"Correct name\", function () {\r",
-							"    pm.expect(jsonData.name).to.eql("Iryna");\r",
+							"    pm.expect(jsonData.name).to.eql(\"Iryna\");\r",
 							"});\r",
 							"\r",
 							"// 5. Проверить, что age в ответе равно age s request (age вбить руками.)\r",
