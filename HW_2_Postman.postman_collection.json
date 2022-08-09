@@ -384,7 +384,7 @@
 							"pm.environment.set(\"salary\");\r",
 							"\r",
 							"// 18. Передать в окружение переменную name\r",
-							"pm.environment.set(\"name\", \req.name\);\r",
+							"pm.environment.set(\"name\", req.name);\r",
 							"// 19. Передать в окружение переменную age\r",
 							"pm.environment.set(\"age\", req.age);\r",
 							"// 20. Передать в окружение переменную salary\r",
